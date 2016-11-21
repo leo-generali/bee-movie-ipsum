@@ -11,7 +11,7 @@
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<!-- FONT -->
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+		<!--  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'> -->
 
 		<!-- CSS/Styling -->
 	 	<link rel='stylesheet' href='css/styles.css'>
@@ -22,14 +22,16 @@
 	</head>
 
 <body>
-	<h1>Bee Movie Ipsum</h1>
-	<form id='modifiers'>
-		<input id='nummberModifier' value='1' type='number' min='1'>
-		<select id='typeModifier'>
-			<option>Sentence(s)</option>
-			<option>Paragraph(s)</option>
-		</select>
-		<button type="button" id='generateTextBtn'>Generate</button>
-	</form>
-	<p id='bee-result'></p>
+	<main class='container'>
+		<h1 class='row'>Bee Movie Ipsum</h1>
+		<form id='modifiers' class='row'>
+			<input id='nummberModifier' value='1' type='number' min='1' class='form'>
+			<select id='typeModifier' class='form'>
+				<option>Sentence(s)</option>
+				<option>Paragraph(s)</option>
+			</select>
+			<button type="button" id='generateTextBtn' class='form'>Generate</button>
+		</form>
+		<p id='bee-result'></p>
+	</main>
 </body>
