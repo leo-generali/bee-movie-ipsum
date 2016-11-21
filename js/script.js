@@ -71,7 +71,6 @@ var controller = {
 var view = {
 	init: function(){
 		this.resultElem = document.getElementById('bee-result');
-		this.resultElem.style.display = 'none';
 
 		this.generateButtomElem = document.getElementById('generateTextBtn')
 		this.generateButtomElem.addEventListener('click', this.generateText);
@@ -94,7 +93,6 @@ var view = {
 
 	generateText: function(){
 		controller.generateText();
-		view.resultElem.style.display = 'block';
 	}
 };
 
