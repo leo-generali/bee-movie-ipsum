@@ -9,7 +9,7 @@ Live site: [leogenerali.com/bee-movie-ipsum](http://www.leogenerali.com/bee-movi
 - [ ] Make it look nicer.
 - [x] Add more lines and quotes.
 - [ ] Create single word option.
-- [x] Maybe buy a URL for this. 
+- [ ] Maybe buy a URL for this. 
 
 ### Known Bugs
 - [x] Line breaks are added every new paragraph regardless of whether it's the last one.
