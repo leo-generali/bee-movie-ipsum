@@ -89,7 +89,7 @@ var view = {
 	},
 
 	displayIpsum: function(generatedText){
-		this.resultElem.innerHTML = generatedText;
+		this.resultElem.innerHTML = generatedText.replace(/^<br\s*\/?>|<br\s*\/?>$/g,'');
 	},
 
 	generateText: function(){
