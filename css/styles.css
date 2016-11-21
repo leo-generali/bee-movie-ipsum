@@ -32,9 +32,9 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-	color: #0D0D0D;
-	font-size: 3em;
-	background-color: 
+    color: white;
+    font-size: 4em;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 p{
@@ -117,6 +117,6 @@ Mobile Phone
 
 @media only screen and (min-width: 300px) {
     .form{
-		width: 45%;	
+    	width: 45%;	
 	}
 }
