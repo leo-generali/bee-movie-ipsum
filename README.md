@@ -5,12 +5,13 @@ Sometimes, you do things that you're not proud of. In this instance, I've made a
 Live site: [leogenerali.com/bee-movie-ipsum](http://www.leogenerali.com/bee-movie-ipsum/)
 
 ### Still To-Do
-- [ ] Make it look nice.
-- [ ] Add more lines and quotes.
+- [x] Make it look nice.
+- [ ] Make it look nicer.
+- [x] Add more lines and quotes.
 - [ ] Create single word option.
-- [ ] Maybe buy a URL for this. 
+- [x] Maybe buy a URL for this. 
 
 ### Known Bugs
-- [ ] Line breaks are added every new paragraph regardless of whether it's the last one.
-- [ ] The same sentnce can show up multiple times in a row.
+- [x] Line breaks are added every new paragraph regardless of whether it's the last one.
+- [ ] The same sentnce can show up multiple times in a row. Still a problem, fixing it would add bloat though. Adding more lines made mitigated the effect though.
 
