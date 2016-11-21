@@ -76,7 +76,7 @@ var view = {
 		this.generateButtomElem = document.getElementById('generateTextBtn')
 		this.generateButtomElem.addEventListener('click', this.generateText);
 
-		this.numberModifierElem = document.getElementById('nummberModifier');
+		this.numberModifierElem = document.getElementById('numberModifier');
 		this.typeModifierElem = document.getElementById('typeModifier');
 	},
 
